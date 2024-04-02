@@ -1,7 +1,7 @@
 /* header */
 
 .header-bg {
-  background-color: #000;
+  background-color: var(--cor-12);
 }
 
 .header {
@@ -26,7 +26,7 @@
 .header-menu a {
   font-family: "Poppins";
   font-weight: 400;
-  color: #fff;
+  color: var(--cor-0);
   display: inline-block;
   padding: 16px 0px;
   font-size: 18px;
@@ -38,7 +38,7 @@
   display: block;
   height: 2px;
   width: 0%;
-  background: #fff;
+  background: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
@@ -56,12 +56,12 @@
     gap: 20px;
   }
   .header-menu a {
-    background: #111;
+    background: var(--cor-12);
     padding: 12px 16px;
     border-radius: 4px;
   }
   .header-menu a:hover {
-    background-color: #2e2e2e;
+    background-color: var(--cor-10);
   }
   .header a:after {
     display: none;
@@ -85,12 +85,12 @@
     gap: 20px;
   }
   .header-menu a {
-    background: #111;
+    background: var(--cor-11);
     padding: 12px 16px;
     border-radius: 4px;
   }
   .header-menu a:hover {
-    background-color: #2e2e2e;
+    background-color: var(--cor-10);
   }
   .header a:after {
     display: none;
