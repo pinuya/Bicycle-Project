@@ -13,7 +13,7 @@
 
 .vantagens ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit minmax(280px, max-content));
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 40px 80px;
 }
 
@@ -34,5 +34,6 @@
   }
   .vantagens ul {
     gap: 20px;
+    display: inline;
   }
 }
