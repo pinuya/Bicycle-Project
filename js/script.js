@@ -55,8 +55,6 @@ function trocarImagem(event) {
   if (media) {
     galeriaContainer.prepend(img);
   }
-
-  galeriaContainer.prepend(img);
 }
 
 function eventosGaleria(img) {
@@ -64,3 +62,8 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+// PLUGINS
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
