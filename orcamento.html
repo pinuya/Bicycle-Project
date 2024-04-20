@@ -39,7 +39,9 @@
 
       <form class="orcamento container" action="./orcamento.html">
         <div class="orcamento-produto">
-          <h2 class="font-1-xs cor-5">Bikcraft ou Seguro?</h2>
+          <h2 class="font-1-xs cor-5 fadeInDown" data-anime="200">
+            Bikcraft ou Seguro?
+          </h2>
 
           <input type="radio" name="tipo" value="bikcraft" id="bikcraft" />
           <label for="bikcraft">Bikcraft</label>
@@ -48,11 +50,13 @@
           <label for="seguro">Seguro</label>
 
           <div class="orcamento-conteudo" id="orcamento-bikcraft">
-            <h2 class="font-1-xs cor-5">Escolha a sua</h2>
+            <h2 class="font-1-xs cor-5 fadeInDown" data-anime="400">
+              Escolha a sua
+            </h2>
 
             <input type="radio" name="produto" value="nimbus" id="nimbus" />
             <label for="nimbus">Nimbus Stark <span>R$ 4999</span></label>
-            <div class="orcamento-detalhes">
+            <div class="orcamento-detalhes fadeInLeft" data-anime="600">
               <ul class="font-1-xs cor-8">
                 <li>
                   <img src="./assets/img/icones/eletrica.svg" alt="" /> Motor
@@ -79,7 +83,7 @@
 
             <input type="radio" name="produto" value="magic" id="magic" />
             <label for="magic">Magic Might <span>R$ 2499</span></label>
-            <div class="orcamento-detalhes">
+            <div class="orcamento-detalhes fadeInLeft" data-anime="600">
               <ul class="font-1-xs cor-8">
                 <li>
                   <img src="./assets/img/icones/eletrica.svg" alt="" /> Motor
@@ -98,12 +102,15 @@
                   Rastreador
                 </li>
               </ul>
-              <img src="./img/bicicletas/magic.jpg" alt="Bicicleta preta" />
+              <img
+                src="./assets/img/bicicletas/magic.jpg"
+                alt="Bicicleta preta"
+              />
             </div>
 
             <input type="radio" name="produto" value="nebula" id="nebula" />
             <label for="nebula">Nebula Cosmic <span>R$ 3999</span></label>
-            <div class="orcamento-detalhes">
+            <div class="orcamento-detalhes fadeInLeft" data-anime="600">
               <ul class="font-1-xs cor-8">
                 <li>
                   <img src="./assets/img/icones/eletrica.svg" alt="" /> Motor
@@ -130,7 +137,9 @@
           </div>
 
           <div class="orcamento-conteudo" id="orcamento-seguro">
-            <h2 class="font-1-xs cor-5">Escolha o plano</h2>
+            <h2 class="font-1-xs cor-5 fadeInDown" data-anime="200">
+              Escolha o plano
+            </h2>
 
             <input type="radio" name="produto" value="prata" id="prata" />
             <label for="prata">Prata <span>R$ 199</span></label>
@@ -140,18 +149,36 @@
           </div>
         </div>
         <div class="orcamento-dados form">
-          <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
+          <h2 class="font-1-xs cor-9 col-2 fadeInDown" data-anime="200">
+            dados pessoais
+          </h2>
           <div>
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" />
+            <label class="fadeInDown" data-anime="200" for="nome">Nome</label>
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="nome"
+              name="nome"
+            />
           </div>
           <div>
-            <label for="sobrenome">Sobrenome</label>
-            <input type="text" id="sobrenome" name="sobrenome" />
+            <label class="fadeInDown" data-anime="200" for="sobrenome"
+              >Sobrenome</label
+            >
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="sobrenome"
+              name="sobrenome"
+            />
           </div>
           <div class="col-2">
-            <label for="cpf">CPF</label>
+            <label class="fadeInDown" data-anime="200" for="cpf">CPF</label>
             <input
+              class="fadeInDown"
+              data-anime="200"
               type="text"
               id="cpf"
               name="cpf"
@@ -159,35 +186,91 @@
             />
           </div>
           <div class="col-2">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
+            <label class="fadeInDown" data-anime="200" for="email">Email</label>
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="email"
+              id="email"
+              name="email"
+            />
           </div>
-          <h2 class="font-1-xs cor-9 col-2">entrega</h2>
+          <h2 class="font-1-xs cor-9 col-2 fadeInDown" data-anime="200">
+            entrega
+          </h2>
           <div>
-            <label for="cep">CEP</label>
-            <input type="text" id="cep" name="cep" />
-          </div>
-          <div>
-            <label for="numero">Número</label>
-            <input type="text" id="numero" name="numero" />
-          </div>
-          <div>
-            <label for="logradouro">Logradouro</label>
-            <input type="text" id="logradouro" name="logradouro" />
-          </div>
-          <div>
-            <label for="bairro">Bairro</label>
-            <input type="text" id="bairro" name="bairro" />
-          </div>
-          <div>
-            <label for="cidade">Cidade</label>
-            <input type="text" id="cidade" name="cidade" />
+            <label class="fadeInDown" data-anime="200" for="cep">CEP</label>
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="cep"
+              name="cep"
+            />
           </div>
           <div>
-            <label for="estado">Estado</label>
-            <input type="text" id="estado" name="estado" />
+            <label class="fadeInDown" data-anime="200" for="numero"
+              >Número</label
+            >
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="numero"
+              name="numero"
+            />
           </div>
-          <button class="botao col-2">Solicitar Orçamento</button>
+          <div>
+            <label class="fadeInDown" data-anime="200" for="logradouro"
+              >Logradouro</label
+            >
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="logradouro"
+              name="logradouro"
+            />
+          </div>
+          <div>
+            <label class="fadeInDown" data-anime="200" for="bairro"
+              >Bairro</label
+            >
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="bairro"
+              name="bairro"
+            />
+          </div>
+          <div>
+            <label class="fadeInDown" data-anime="200" for="cidade"
+              >Cidade</label
+            >
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="cidade"
+              name="cidade"
+            />
+          </div>
+          <div>
+            <label class="fadeInDown" data-anime="200" for="estado"
+              >Estado</label
+            >
+            <input
+              class="fadeInDown"
+              data-anime="200"
+              type="text"
+              id="estado"
+              name="estado"
+            />
+          </div>
+          <button class="botao col-2 fadeInLeft" data-anime="200">
+            Solicitar Orçamento
+          </button>
         </div>
       </form>
     </main>
@@ -233,6 +316,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
   </body>
   >
